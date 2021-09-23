@@ -1,0 +1,16 @@
+{
+  "name": "parcel-transformer-po",
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "Alexey Raspopov",
+  "description": "Transform .po files",
+  "main": "transformer.js",
+  "keywords": [
+    "parcel",
+    "transformer"
+  ],
+  "dependencies": {
+    "@parcel/plugin": "2.0.0-rc.0",
+    "gettext-parser": "^4.0.4"
+  }
+}
