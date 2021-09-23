@@ -4,11 +4,15 @@
   "license": "ISC",
   "author": "Alexey Raspopov",
   "description": "Transform .po files",
-  "main": "transformer.js",
+  "main": "POTransformer.js",
   "keywords": [
     "parcel",
     "transformer"
   ],
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "2.x"
+  },
   "dependencies": {
     "@parcel/plugin": "2.0.0-rc.0",
     "gettext-parser": "^4.0.4"
